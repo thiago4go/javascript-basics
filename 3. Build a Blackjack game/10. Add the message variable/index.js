@@ -4,8 +4,10 @@ let sum = firstCard + secondCard + 4
 let hasBlackJack = false
 let isAlive = true
 // 1. Declare a variable called message and assign its value to an empty string
+let message = ""
 
 // 2. Reassign the message variable to the string we're logging out
+message = "We're logging out"
 if (sum <= 20) {
     console.log("Do you want to draw a new card? 🙂")
 } else if (sum === 21) {
@@ -17,3 +19,4 @@ if (sum <= 20) {
 }
 
 // 3. Log it out!
+console.log(message)
